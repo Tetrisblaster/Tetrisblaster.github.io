@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0px;}
+
+
+.header/*Text at the top of the page*/{
+    
+    text-align: center;
+    padding: 1px;
+    background: white;
+    color: rgb(0, 0, 0);
+}
+   
+ul{
+    position: sticky;
+    top:0px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    /*background-color:grey;*/
+    z-index:1;
+}
+#ul1{
+    background-color: black;
+
+}
+
+li{
+    float:left;
+    width:50%;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: rgb(90, 90, 90);
+    color:black;
+}
+body{
+    background-image:  url(Image/Streets.jpg);
+    background-size:cover; 
+    background-position: center;
+
+}
+#p1{
+    background-color:rgba(255,255,255, 0.5);
+    
+    margin-left:10px;
+    margin-right: 10px; 
+    padding:10px;
+    
+    
+    
+}
+.background1/*Background for the gap from navbar1 to navbar2*/ {
+    background-image: url(image/Sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background2 /*Background for the gap between navbar2 and rest*/{
+    background-image: url(image/Streets.jpg);
+    background-size: cover;
+    
+}
+.foreground/*For text or other items placed infront of the baclground*/{
+    background-color:rgba(255,255,255, 0.8);
+    margin-left: 20px;
+    margin-right: 20px;
+     
+    padding:10px;
+}
+
+#ppsap/*ProfilePictureSizeAndPosition*/{
+    width:20%; 
+    height:20%px; 
+    float:none;
+    
+}
+#es/*for making empty space*/{
+    background-color: white;
+    opacity: 0;
+}
+.PDFPOS{
+    padding-left: 25%;
+}
+table, th, td{
+    border: 1px solid black ;
+    width: 50%;
+
+}
+table#t01 tr:nth-child(even){
+    background-color: rgb(160, 160, 160);
+}
+table#t01 tr:nth-child(odd){
+    background-color:white;
+}
+table#t01 th{
+    background-color: white;
+   
+}
